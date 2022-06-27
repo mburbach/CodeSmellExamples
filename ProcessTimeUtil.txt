@@ -1,0 +1,10 @@
+class ProcessTimeUtil {
+    boolean danach(int year1, int month1, int day1, int year2, int month2, int day2) {
+        // super toller code hier 
+    }
+  
+    int differenzInTagen(int year1, int month1, int day1, int year2, int month2, int day2) {
+        // mega cooler code hier
+    }
+  
+}
