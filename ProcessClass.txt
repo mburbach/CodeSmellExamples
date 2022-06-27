@@ -1,0 +1,21 @@
+class Process {
+    String type;
+    Date dateTime;
+  
+    String getProcessType() {
+        switch (type) {
+            case "timeRental":
+                return "ganz_tolles";
+            case "workerRental":
+                return "noch_viel_toller";
+            default:
+                throw new IllegalStateException();
+        }
+    }
+
+    double getPrice( subtotal ) {
+  	double total = subtotal + 9.95;
+  	return total + (total * 0.10);
+     }
+
+}
